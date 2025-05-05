@@ -1,0 +1,9 @@
+1. Write a program to calculate the area of a circle and print the result as shown in the displayed test cases.
+radius = int(input('Enter the radius : '))
+PI = 3.14
+Area = PI * radius * radius;
+if(radius<0):
+print("Enter a positive value upto 100")
+else:
+print("Area of circle = %f"%Area)
+
