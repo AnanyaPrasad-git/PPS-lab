@@ -1,0 +1,9 @@
+The program defines the Sumof() function.
+In the main program it takes the input n and sends it to the Sumof() function.
+The Sumof() function contains base and recursive criterion.
+def Sumof(n):
+if n<10:
+return n
+return(n%10)+Sumof(n//10)
+n = int(input())
+print(Sumof(n))
